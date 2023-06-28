@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.navbar {
+    height: 105px;
+}
+.navbar--bottom > a {
+    text-decoration: none;
+    color: black;
+}
+.main {
+    background-color: #2ECC71;
+    height: 664px;
+}
+.main--text-description > h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.main--text-description > p {
+    max-width: 635px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 44px;
+    text-align: left;
+
+}
+.main--text-description > h1, p {
+    color: #FFFFFF;
+}
+.main--img-phone{
+    width: 34.5%;
+    background: url('../images/phone.png') 50% / cover no-repeat;
+}
+.main--text-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.buttom-baner {
+    width: 255px;
+    height: 56px;
+}
+.digital-securities--title > h1 {
+    color: #000;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 30px 0 ;
+}
+.digital-securities--title > p {
+    max-width: 935px;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0 auto;
+}
+.digital-securities--content {
+    margin-top: 40px;
+}
+.digital-securities--content > .row > .col > h2 {
+    margin-top: 60px;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.digital-securities--content > .row > .col > p {
+    margin-top: 17px;
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    font-weight: 300;
+}
+.digital-securities--content--img-container {
+    height: 340px;
+    width: 313px;
+}
+.digital-securities--content--img-container > img {
+    margin: 0 auto;
+    text-align: center;
+}
+.digital-securities--input > div > input {
+    width: 428px;
+    height: 47px;
+    flex-shrink: 0;
+}
+.digital-assets {
+    display: flex;
+    height: 181px;
+    flex-shrink: 0;
+    background: #252525;
+    align-items: center;
+    justify-content: center;
+}
+.digital-assets > h1 {
+    max-width: 694px;
+    color: #2FCC71;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
