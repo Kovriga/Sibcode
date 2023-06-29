@@ -53,13 +53,13 @@
     width: 255px;
     height: 56px;
 }
-.digital-securities--title > h1 {
+h1 {
     color: #000;
     text-align: center;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 600 !important;
     text-transform: capitalize;
-    margin: 30px 0 ;
+    margin: 30px 0 !important;
 }
 .digital-securities--title > p {
     max-width: 935px;
@@ -69,9 +69,6 @@
     font-weight: 300;
     margin: 0 auto;
 }
-.digital-securities--content {
-    margin-top: 40px;
-}
 .digital-securities--content > .row > .col > h2 {
     margin-top: 60px;
     color: #000;
@@ -79,7 +76,7 @@
     font-size: 30px;
     font-weight: 600;
 }
-.digital-securities--content > .row > .col > p {
+p {
     margin-top: 17px;
     text-align: center;
     color: #000;
@@ -88,10 +85,12 @@
 }
 .digital-securities--content--img-container {
     height: 340px;
-    width: 313px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .digital-securities--content--img-container > img {
-    margin: 0 auto;
     text-align: center;
 }
 .digital-securities--input > div > input {
@@ -113,4 +112,166 @@
     text-align: center;
     font-size: 32px;
     font-weight: 600;
+}
+.products {
+    margin-bottom: 68.5px;
+}
+.products > h1 {
+    margin: 43px auto 8px !important;
+}
+.products--text-content > div > h2 {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.products--text-content > div > p {
+    width: 314px;
+    margin: 0 auto;
+}
+
+.products--text-content > div:last-child > h2 {
+    color: #2ECC71;
+}
+.products--text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.products--text-content > div:first-child{
+    margin-bottom: 90px;
+}
+.digitize-your-business--block-info {
+    padding: 50px;
+    min-width: 320px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #2ECC71;
+    width: 428px;
+    height: 314px;
+    flex-shrink: 0;
+}
+
+.digitize-your-business--block-info > h2 {
+    margin: 20px auto;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.digitize-your-business--block-info > p {
+    margin: 0 54px;
+     color: #000;
+     text-align: center;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+}
+.blog{
+    margin-top: 111px;
+    margin-bottom: 114px;
+    text-align: center;
+}
+.blog--text-and-img{
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.blog--text-and-img > div:first-child {
+    max-width: 426px;
+    min-width: 320px;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    text-align: center;
+}
+.blog--text-and-img > div:first-child > img {
+    width: 100%;
+}
+.blog--text-content > p:first-child {
+    margin-top: 14px;
+    margin-bottom: 4px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+}
+.blog--text-content > p:last-child {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+.blog--text-content {
+    margin: 0 5px !important;
+}
+.btn-outline-grin{
+    padding: 11px 47px!important;
+    border: 5px solid #2DC66E !important;
+    border-radius: 10px !important;
+    color: #2DC66E !important;
+    font-size: 25px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+}
+.btn-outline-grin:hover{
+    color: #FFFFFF !important;
+    background: #2DC66E !important;
+}
+.style-form{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.style-form > input, textarea {
+    width: 540px !important;
+    border-radius: 5px !important;
+    border: 1px solid #969696 !important;
+}
+.style-form > label {
+    width: 150px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.blog--content-text > h1,p {
+    text-align: left;
+}
+.blog--content-text > p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    max-width: 375px;
+}
+
+.blog--content-text > p > span {
+    color: #2ECC71;
+}
+.button-form {
+    padding: 8px 56px !important;
+}
+.contact-us {
+    margin-bottom: 50px;
+}
+.footer{
+    height: 373px;
+    background: #252525;
+}
+.navbar--bottom-footer > a {
+    text-decoration: none;
+    color: white;
+}
+.navbar--bottom-footer {
+    display: flex;
+    flex-direction: column;
 }
